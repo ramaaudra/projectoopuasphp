@@ -8,3 +8,4 @@ cara menjalankan:
 1. buat database mysql dengan nama hutangpiutang
 2. lalu import file hutangpiutang.sql di mysql
 3. jalankan
+4. bisa login dengan username "admin" dan password "admin" atau register
