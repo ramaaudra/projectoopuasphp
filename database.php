@@ -14,7 +14,7 @@ class hutang
     $this->koneksi = mysqli_connect($this->host, $this->user, $this->password, $this->database);
   }
 
-  function getKoneksi()
+  protected function getKoneksi()
   {
     return $this->koneksi;
   }
