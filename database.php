@@ -153,14 +153,14 @@ class register extends hutang
 }
 
 
-class Login extends hutang
+class Login extends register
 {
+  public $id;
+
   function __construct()
   {
     parent::__construct();
   }
-
-  public $id;
 
   function login($usernameemail, $password)
   {
@@ -185,7 +185,7 @@ class Login extends hutang
   }
 }
 
-class Select extends hutang
+class Select extends login
 {
   function __construct()
   {
